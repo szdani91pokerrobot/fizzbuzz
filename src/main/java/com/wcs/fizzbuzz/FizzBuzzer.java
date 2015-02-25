@@ -8,7 +8,7 @@ public class FizzBuzzer {
         } else if(number % 5 == 0) {
             return "buzz";
         } else {
-            return "";
+            return String.valueOf(number);
         }
     }
 }
